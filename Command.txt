@@ -1,0 +1,20 @@
+ls -la
+rm -rf .git
+mkdir folder name
+touch file name
+
+git commit ---> console enter 'I' write commit message --->>CTR+C and type :qa!+Enter
+
+
+git init
+git status
+git add "file name1"/"file name2"/........   //to add a particular file
+git add Intermediate/file name
+git add .   // add all the files.  staging area, ready to commit.
+git commit -m "write your commit message"
+git push -u origin master
+git log
+git diff
+url of commit.patch
+git log --graph
+
